@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.btn {
+  outline: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  background: rgba(172, 9, 9, 0.493);
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+.profile-card {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 60%;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 2px -4px 10px 1px rgba(0, 0, 0, 0.2);
+  background-color: #f9f9f9;
+}
+.esmi{
+  color:red;
+}
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 4px 3px 10px 1px rgba(0, 0, 0, 0.2);
+  color: rgba(6, 134, 253, 0.493);
+  background: white;
+}
